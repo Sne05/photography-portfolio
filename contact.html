@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | FRAME Photography</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="index.html" class="logo">FRAME<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <a href="contact.html" class="nav-button">
+            Let's Talk
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+    </header>
+
+
+    <!-- Contact Hero -->
+    <section class="contact-page-hero">
+        <div class="contact-hero-content">
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h1>Let's Create Something <span>Beautiful</span></h1>
+
+            <p>
+                Have a project in mind, a question, or simply want to say hello?
+                I'd love to hear from you.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-page-section section-padding">
+
+        <div class="contact-details">
+
+            <p class="section-label">CONTACT INFORMATION</p>
+
+            <h2>Let's Start A Conversation</h2>
+
+            <p class="contact-description">
+                Every great photograph begins with an idea.
+                Tell me yours, and let's bring it to life.
+            </p>
+
+
+            <div class="contact-info-item">
+                <div class="contact-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                    <h3>Email</h3>
+                    <a href="mailto:hello@framephotography.com">
+                        hello@framephotography.com
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="contact-info-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <div>
+                    <h3>Location</h3>
+                    <p>Mumbai, India</p>
+                </div>
+            </div>
+
+
+            <div class="contact-info-item">
+                <div class="contact-icon">
+                    <i class="fa-regular fa-clock"></i>
+                </div>
+
+                <div>
+                    <h3>Availability</h3>
+                    <p>Open for photography projects</p>
+                </div>
+            </div>
+
+
+            <div class="contact-social">
+                <h3>Follow My Work</h3>
+
+                <div class="contact-social-links">
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.pinterest.com/" aria-label="Pinterest">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+
+                    <a href="https://www.behance.net/" aria-label="Behance">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+
+            <p class="section-label">SEND A MESSAGE</p>
+
+            <h2>Tell Me About Your Project</h2>
+
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="category">Photography Type</label>
+
+                    <select id="category" name="category">
+                        <option value="">Select a category</option>
+                        <option value="portrait">Portrait Photography</option>
+                        <option value="travel">Travel Photography</option>
+                        <option value="nature">Nature Photography</option>
+                        <option value="architecture">Architecture Photography</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+
+                    <textarea id="message" name="message" rows="6" placeholder="Tell me more about your project..." required></textarea>
+                </div>
+
+
+                <button type="submit" class="contact-submit-btn">
+                    Send Message
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Image Banner -->
+    <section class="contact-image-banner">
+        <div class="contact-image-content">
+            <p class="section-label">FRAME PHOTOGRAPHY</p>
+            <h2>Every Moment Deserves To Be Remembered.</h2>
+            <a href="gallery.html" class="about-explore-btn">
+                View My Gallery
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="index.html" class="logo">FRAME<span>.</span></a>
+
+        <p>Capturing life, one frame at a time.</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.pinterest.com/" aria-label="Pinterest">
+                <i class="fa-brands fa-pinterest"></i>
+            </a>
+
+            <a href="https://www.behance.net/" aria-label="Behance">
+                <i class="fa-brands fa-behance"></i>
+            </a>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 FRAME PHOTOGRAPHY</span>
+            <span>DESIGNED WITH CREATIVITY</span>
+        </div>
+    </footer>
+
+</body>
+</html>
